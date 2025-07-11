@@ -12,6 +12,7 @@ public class UserService {
     private final UserRepository userRepository;
 
     public void registerUser(User user) {
+        // Save
         userRepository.save(user);
     }
 }
